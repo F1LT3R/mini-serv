@@ -58,7 +58,7 @@
       "email": "al@pwn.io"
     }
   ],
-  "name": "mini-serv",
+  "name": "miniserv",
   "optionalDependencies": {},
   "scripts": {
     "start": "node server.js"
