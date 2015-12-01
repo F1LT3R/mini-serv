@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "mini-serv",
+      ""
+    ]
+  ],
+  "_from": "mini-serv@*",
+  "_id": "mini-serv@1.2.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/mini-serv",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "email": "al@pwn.io",
+    "name": "f1lt3r"
+  },
+  "_npmVersion": "2.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "mini-serv",
+    "raw": "mini-serv",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/mini-serv/-/mini-serv-1.2.1.tgz",
+  "_shasum": "80eab7804c71020d6d091801711dc46d79f5d0f4",
+  "_shrinkwrap": null,
+  "_spec": "mini-serv",
+  "_where": "",
+  "author": {
+    "name": "F1LT3R"
+  },
+  "bin": {
+    "miniserv": "server.js"
+  },
+  "dependencies": {
+    "connect": "^3.4.0",
+    "livereload": "^0.4.0",
+    "serve-static": "^1.10.0"
+  },
+  "description": "mini livereload web server",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "80eab7804c71020d6d091801711dc46d79f5d0f4",
+    "tarball": "http://registry.npmjs.org/mini-serv/-/mini-serv-1.2.1.tgz"
+  },
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "f1lt3r",
+      "email": "al@pwn.io"
+    }
+  ],
+  "name": "mini-serv",
+  "optionalDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.2.1"
+}
