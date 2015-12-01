@@ -1,18 +1,17 @@
 #!/usr/bin/env node
 
-// var connect = require('connect');
-// var serveStatic = require('serve-static');
-// connect().use(serveStatic(__dirname)).listen(8080);
+var port = 8080;
 
-// livereload = require('livereload');
-// server = livereload.createServer();
-// server.watch(__dirname);
-// 
-// 
-var connect = require('connect');
-var serveStatic = require('serve-static');
-connect().use(serveStatic('./')).listen(8080);
+var connect = require('connect')
+  , serveStatic = require('serve-static')
+  , livereload = require('livereload')
+  ;
 
-livereload = require('livereload');
+// Create the http server
+connect().use(serveStatic('./')).listen(port);
+
+// Create the livereload server and start watching
 server = livereload.createServer();
 server.watch('./');
+
+console.log('miniserv listening on localhost:'+port);
